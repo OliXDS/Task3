@@ -3,6 +3,8 @@ def check_palindrome(word):
     # converts all characters to lowercase
     word = word.lower()
 
+    # removes all spaces in word
+    word = word.replace(" ","")
 
     # stores the inverse of word
     inverse = word[::-1]
@@ -15,6 +17,6 @@ def check_palindrome(word):
 
 
 # calling the function and passing a parameter
-print(check_palindrome("Ka yak"))
+print(check_palindrome("Ka y a k"))
 
 
