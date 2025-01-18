@@ -17,6 +17,6 @@ def check_palindrome(word):
 
 
 # calling the function and passing a parameter
-print(check_palindrome("Ka y a k"))
+print(check_palindrome("ka yak"))
 
 
