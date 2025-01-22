@@ -110,3 +110,10 @@ False
 - Boolean Output: If the reversed string matches the original, the function returns True; otherwise, it returns False
 
 ## Extra Notes
+
+This program only checks alphanumeric palindromes. Punctuation or special characters are not ignored (e.g., "A man, a plan, a canal, Panama!" would need to have punctuation removed before checking)
+
+You can always modify the input to test different cases directly in the print(check_palindrome(...)) function call
+
+
+# Enjoy exploring palindromes with this simple and effective program!
