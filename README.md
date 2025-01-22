@@ -11,6 +11,13 @@ A palindrome is a word or phrase that reads the same backward as forward (ignori
 
 This program processes the input, removes spaces, converts all characters to lowercase and checks if the string matches its reverse.
 
+## Features
+
+- Checks if a word or phrase is a palindrome
+
+- Ignores spaces and capitalisation
+
+- Provides a simple True or False output
 
 ## What you will need
 
@@ -54,3 +61,38 @@ python maths_quiz.py
 
 4. You’re ready to run the code!
 
+
+## python palindrome_checker.py How to Use
+
+1. Launch the program by running the script
+
+2. Replace `"ka yak"` in the code with the word or phrase you want to check For example:
+```python
+print(check_palindrome("Racecar"))
+```
+
+3. Run the script again. The program will output True if the input is a palindrome and False if not
+
+
+## Example Usage
+
+
+Input:
+```python
+print(check_palindrome("Racecar"))
+```
+
+Output:
+```python
+True
+```
+
+Input:
+```python
+print(check_palindrome("boat"))
+```
+
+Output
+```python
+False
+```
