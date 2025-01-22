@@ -96,3 +96,17 @@ Output
 ```python
 False
 ```
+
+## Technical Details
+
+### Code Overview
+
+- Case Insensitivity: The program converts all input to lowercase using word.lower()
+
+- Whitespace Removal: Spaces are removed using word.replace(" ", "")
+
+- Palindrome Check: The reversed string (word[::-1]) is compared with the original
+
+- Boolean Output: If the reversed string matches the original, the function returns True; otherwise, it returns False
+
+## Extra Notes
